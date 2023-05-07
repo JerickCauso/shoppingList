@@ -69,19 +69,13 @@ addButton.addEventListener("click", function () {
 });
 
 //Update Items
-// // const updateItems = document.getElementById(".listUpdate");
-// // const updateButton = document.getElementById("button-add");
+// const updateItems = document.querySelectorAll(".listUpdate");
+// const updateButton = document.getElementById("button-add");
 
-// // updateItems.forEach(function (li) {
-// //   li.addEventListener("click", function () {
-// //     updateButton.textContent = "Update Item";
-// //   });
-// // });
-
-// const listItems = document.querySelectorAll("#item-list li");
-
-// listItems.forEach((item) => {});
-// item.addEventListener("click", (event) => {
-//   const addButton = document.querySelector(".btn");
-//   addButton.textContent = "Update Item";
+// updateItems.forEach(function (updateButton) {
+//   updateButton.addEventListener("click", function () {
+//     alert("success");
+//     // const addButton2 = document.querySelector(".btn");
+//     // addButton2.innerHTML === "Update Item";
+//   });
 // });
